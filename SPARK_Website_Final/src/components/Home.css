@@ -1,0 +1,125 @@
+/* General Styles */
+.home {
+  width: 85%;
+  margin: 0 auto;
+  padding: 40px 20px;
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  color: #333333;
+}
+
+/* Section Styles */
+.primary-section, .secondary-section {
+  border-radius: 15px;
+  margin-bottom: 2rem;
+  padding: 3rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  color: #333333;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Background Colors */
+.primary-section {
+  background: #e8f0fe; /* Light blue background */
+}
+
+.secondary-section {
+  background: #e0f7fa; /* Light teal background */
+}
+
+.section-content {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.section-content.reverse {
+  flex-direction: column-reverse;
+}
+
+.section-body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.section-body img {
+  max-width: 300px; /* Fixed image size for uniformity */
+  height: auto;
+  border-radius: 15px;
+  margin: 0 20px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  opacity: 0.9;
+}
+
+.section-body img:hover {
+  transform: scale(1.05);
+  opacity: 1;
+}
+
+.text-content {
+  max-width: 60%;
+}
+
+.section-body h2 {
+  color: #333333;
+  font-size: 32px;
+  font-weight: bold;
+  margin: 20px 0;
+  padding-bottom: 10px;
+  text-decoration: none; /* Remove underline */
+}
+
+/* Justify text */
+.section-body p {
+  text-align: justify;
+}
+
+/* Hover Effect */
+.primary-section:hover, .secondary-section:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+  .section-body {
+    flex-direction: row;
+  }
+
+  .section-body img {
+    max-width: 300px;
+    margin: 0 20px;
+  }
+
+  .text-content {
+    max-width: 50%;
+  }
+}
+
+/* Centering the Dignitaries Messages */
+.secondary-section.dignitaries-messages {
+  display: flex;
+  justify-content: center;
+}
+
+.secondary-section.dignitaries-messages .section-body {
+  justify-content: center;
+  text-align: center;
+}
+
+.secondary-section.dignitaries-messages h2 {
+  font-size: 36px; /* Increase the size of the heading */
+  margin-bottom: 0;
+  text-decoration: none; /* Remove underline */
+}
+
+.secondary-section.dignitaries-messages p {
+  font-size: 20px; /* Increase the size of the paragraph text */
+  text-align: justify; /* Justify text */
+}

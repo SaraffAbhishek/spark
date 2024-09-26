@@ -1,0 +1,14 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer .social-media a {
+    font-size: 1.5rem;
+  }
+  
+  .footer .contact-us a {
+    font-size: 1rem;
+  }
+  

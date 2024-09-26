@@ -1,0 +1,59 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.wings {
+  text-align: center;
+  padding: 2rem;
+  background: #f0f4f8; /* Light grey-blue background */
+}
+
+.wings-image {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.wing-section {
+  margin: 2rem 0;
+  padding: 1rem;
+  border-radius: 10px;
+  background: #fff; /* White background for sections */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s; /* Updated transition */
+}
+
+.wing-section:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); /* Shadow effect on hover */
+}
+
+.wing-header {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  color: #0056b3; /* Dark blue */
+  background: #cfe2f3; /* Light blue */
+  border-left: 6px solid #0056b3; /* Dark blue border */
+  text-align: left;
+}
+
+.wing-details {
+  text-align: left;
+  margin: 0 auto;
+  max-width: 80%;
+  color: #333; /* Dark grey text */
+}
+
+.wing-details ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+}
+
+.wing-details li {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}

@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .podcast-page {
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .podcast-header {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .podcast-subheader {
+    font-size: 24px;
+    color: #777;
+  }
+  
+  .podcast-image {
+    width: 200px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 20px;
+  }
+  
+  .podcast-coming-soon {
+    font-size: 18px;
+    color: #555;
+    margin-top: 10px;
+  }
+  
